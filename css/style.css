@@ -1,0 +1,146 @@
+/*global*/
+
+body {
+	font-family: 'Arial', sans-serif;
+	font-weight: 100;
+	font-size: 1.125em;
+	color: #434345;
+	background: #ffffff 
+}
+
+a {
+	font-size: 1.000em;
+	color: #15BD85;
+	text-decoration: none;
+}
+
+img { 
+
+	max-width: 100%;
+}
+
+/*typography*/
+
+h1 {
+	font-size: 2.000em;
+	font-weight: 100;
+	letter-spacing: -1.5px;
+}
+
+h2 {
+	font-weight: 100;
+	font-size: 1.250em;
+	color: #434345;
+}
+h3 {
+	font-weight: 100;
+	font-size: 1.125em;
+	color: #ed6c85;
+}
+
+ul
+{
+	list-style-type: none;
+	line-height: 1.500em;
+}
+
+
+
+/*buttons*/
+
+.btn {
+	padding: 15px 30px;
+	margin: 25px 0px 0px 0px;
+	color: #faf3bc;
+	background: #15BD85;
+	border-radius: 25px;
+	-webkit-border-radius: 25px;
+	-moz-border-radius: 25px;
+	text-transform: uppercase;
+}
+
+.btn:hover {
+	background-color: #4cc4a7;
+}
+
+
+.btn-small {
+	padding: 10px 25px;
+	color: #faf3bc;
+	font-size: .75em;
+	background: #b22316 url('texture.png') no-repeat right bottom;
+	border-radius: 25px;
+	-webkit-border-radius: 25px;
+	-moz-border-radius: 25px;
+	text-transform: uppercase;
+}
+
+.btn-small:hover {
+	background-color: #c62718;
+}
+
+.prepper img {
+	border: black 5px;
+	border-radius: 50px
+
+}
+
+.bottom_section {
+	border-top: 2px solid #D7D7D9;
+	padding: 25px 0px;
+	margin-right: 25px 0px;
+
+}
+
+#tutorials img {
+	box-sizing: border-box;
+	background-color: #faf3bc;
+	padding: 8px;
+	margin: 0 0 5% 0;
+
+}
+
+#tutorials li {
+	float: left;
+	margin-right: 25px;
+
+}
+
+/*navigation*/
+
+#nav ul {
+	width: 100%;
+	margin: 20% 0 0 0;
+	list-style: none;
+	float: right;
+	color: #15BD85;
+	text-decoration: none;
+	}
+#nav ul li {
+	float: right;
+	margin-right: 20px;
+	}
+	
+
+/*content*/
+
+#intro {
+	margin: 2% 0 5% 0;
+}
+
+
+
+#contact span{
+	color: #b22316;
+	font-weight: 600;
+}
+
+#copyright {
+	border-top: 3px solid #D7D7D9;
+	padding: 2% 0;
+	margin: 2% 0;
+	text-align: center;
+}
+
+
+
