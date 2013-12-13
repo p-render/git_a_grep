@@ -7,6 +7,11 @@
 	<link rel="stylesheet" href="css/style.css" type="text/css" media="screen">
 	<link rel="stylesheet" href="css/normalize.css" type="text/css" media="screen">
 	<link href='http://fonts.googleapis.com/css?family=Nunito:400,300,700' rel='stylesheet' type='text/css'>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+	<script src="jquery.fittext.js"></script>
+	<script>
+  		jQuery("#responsive_headline").fitText();
+	</script>
 </head>
 
 <body>
@@ -15,53 +20,56 @@
 	<div class="container clearfix">
 		<div id="logo" class="grid_5">
 			<a href="http://commons.wikimedia.org/wiki/File:Clipper_fist.gif"><img src="img/Clipper_fist.gif" alt="Getting a Grep on Code'"></a>
+
+			<div id="top_btn">
+				<p><a href="#tools" class="btn">Find Useful Web Tools</a></p>
+			</div>
 		
 			<div class="grid_12 omega">
 				<ul>
-					<li class="about"><a href="#about">About</a></li>
 					<li class="tutorials"><a href="#tutorials">Tutorials</a></li>
-					<li class="tools"><a href="#">Useful Tools</a></li>
-					<li class="sites"><a href="#">Useful Prep Sites</a></li>
+					<li class="tools"><a href="#tools">Useful Tools</a></li>
+					<li class="about"><a href="#about">About</a></li>
 				</ul>
 			</div>	
 
 		</div> 
-		
-		<div id="top_btn">
-			<p><a href="#tutorials" class="btn">Find Web Tutorials</a></p>
-		</div>
 
 		<div id="intro" class="grid_7">
 			<h1>Getting a Grip on Code</h1>
 			<h2>Or is it 'Gitting a Grep?'  What is a <a href="http://en.wikipedia.org/wiki/Grep">'grep'</a>?  It's a Unix command to help you find things in files.  When I get stuck, it's what I feel I am doing everytime I search the web for help. </h2>
-			<p>This is a pre-campers list of bootcamp related prep work that I hope to work through.  I made this website for practice in code and for future bootcamp preppers.  And I know I have a pun problem, but I will attempt to minimize it.  I borrowed the code from Team Treehouse and their tutorials.  <a href="http://teamtreehouse.com/learning-adventures/become-a-web-designer">Check it out!</a>  And go to <a href="https://github.com/">GitHub</a> if you wonder what <a href="http://en.wikipedia.org/wiki/Git_%28software%29">'git'</a> is.  </p>
+			<p>This is a collection of web dev related services and libraries that I hope to work through.  I made this website for finding practice in coding and for future coding bootcamp preppers.  I borrowed the code from Team Treehouse and their tutorials.  <a href="http://teamtreehouse.com/learning-adventures/become-a-web-designer">Check it out!</a>  And go to <a href="https://github.com/">GitHub</a> if you wonder what <a href="http://en.wikipedia.org/wiki/Git_%28software%29">'git'</a> is.  </p>
+			<p>I needed a place throw all my disparate bookmarks and notes on web development.  This is where I put everything I want to remember.  Ok, not everything.</p>
 		</div>
-
-				
 
 		<div id="tutorials" class="grid_12 ">
 				<a name="tutorials"></a>
-				<h2>Top 3 Tutorial Websites</h2>
-				<p>Below are three tutorial websites worth looking into.  Only Cocecademy is free. </p>
+				<h2>Top 4 Tutorial Websites</h2>
+				<p>Below are four tutorial websites worth looking into.  Only Cocecademy is free. </p>
 			<ul>
 				<li><p>Treehouse</p><a href="http://teamtreehouse.com"><img src="img/Treehouse.png" alt="Team Treehouse"></a></li>
 				<li><p>Codecademy</p><a href="http://www.codecademy.com"><img src="img/Codecademy.png" alt="Codecademy"></a></li>
 				<li><p>CodeSchool</p><a href="https://www.codeschool.com/"><img src="img/Code_school.png" alt="Code School"></a></li>
+				<li><p>Lynda.com</p><a href="https://www.lynda.com/"><img src="img/lynda.png" alt="Lynda.com"></a></li>
 			</ul>
+		</div>
+
 		<div class="grid_12">
-			<p>If you're just starting out, and need conceptual help as well as just learning how to code, then <a href="http://teamtreehouse.com">Treehouse</a> is your best bet.  If learning to code is priority one, and then you'll find a project to work on, then <a href="http://www.codecademy.com">Codecademy</a> might be right.  And once you feel you can move quickly and want to fill in gaps, then go to <a href="https://www.codeschool.com/">Code School</a>.
+			<p>If you're just starting out, and need conceptual help as well as just learning how to code, then <a href="http://teamtreehouse.com">Treehouse</a> is your best bet.  If learning to code is priority one above finding a project to work on, <a href="http://www.codecademy.com">Codecademy</a> might be right.  And once you feel you can move quickly and want to fill in gaps, then go to <a href="https://www.codeschool.com/">Code School</a>.  Each of these tutorials has in-browser code challenges as part of their learning process.
 			</p>
-			<p>Each of these tutorials has in-browser code challenges as part of their learning process.  If you wanted something where you watch a video while actually doing a programing or software activity, consider what's available at <a href="http://www.lynda.com">Lynda.com</a>.  Their 'Essiential Training' series can be useful.  I found the Ruby on Rails class to be helpful.</p>
+			<p>If you wanted something where you watch a video while actually doing a programing or software activity, consider what's available at <a href="http://www.lynda.com">Lynda.com</a>.  Their 'Essential Training' series can be useful.  I found the <a href="http://www.lynda.com/Ruby-Rails-tutorials/Ruby-Rails-3-Essential-Training/55960-2.html">Ruby on Rails class</a> to be helpful.  Finally, if you are Ruby on Rails focused or are looking to prep for all the front end development code, the Flatiron School has a in depth <a href="http://prework.flatironschool.com/">prework site </a> for their incoming students, with estimation of hours to complete and reasons for why they want you to know it.</p>
 		</div>
-		</div>
+		
 			
-			<div id="tools" class="grid_12 ">
-				<a name="tools"></a>
-				<h2>Useful Web Development Tools</h2>
-				<p>This list has useful web sites, applications, short cuts, and other useful items to save time. </p>
+		<div id="tools" class="grid_12 ">
+			<a name="tools"></a>
+			<h2>Useful Web Development Tools</h2>
+			<p>This list has useful web sites, applications, short cuts, and other useful items to save time. </p>
+			<h3>Web Development in General</h3>
 			<ul>
 				<li><a href="http://adaptive-images.com/">Adaptive Images</a> - JavaScript image resizer for different screen sizes.</li>
 				<li><a href="http://www.w3.org/TR/css3-transitions/#animatable-properties/">Animations</a> - List of Animatible CSS properties.</li>
+				<li><a href="http://www.aptana.com/">Aptana Studio</a> - an open source IDE.  With support for HTML5, CSS3, JavaScript, Ruby, Rails, PHP and Python.</li>
 				<li><a href="http://basehold.it/">Basehold.it</a> - JavaScript baseline overlay for checking vertical rhythm in headings and paragraph spacing.</li>	
 				<li><a href="http://getbootstrap.com/ ">Bootstrap</a> - Helpful social CSS, etc.</li>	
 				<li><a href="http://caniuse.com/">Can I use… </a> - Compatibility tables for support of HTML5, CSS3, SVG and more in desktop and mobile browsers.</li>	
@@ -75,17 +83,20 @@
 				<li><a href="http://css-tricks.com/ ">CSS-tricks </a> - CSS expertise and blog posts</li>
 				<li><a href="http://cubic-bezier.com/">Cubic Bezier </a> - Moving on a curve…</li>
 				<li><a href="http://cyberduck.io/ ">Cyberduck</a> - FTP and more.</li>
+				<li><a href="http://www.eclipse.org/">Eclipse </a> - an open source IDE. A foundation used by others (Aptana, PyDev).</li>
 				<li><a href="http://dev.w3.org/html5/html-author/charref ">Entities Listed (W3C) </a> - List of entities and their code equivalents.</li>
 				<li><a href="http://getfirebug.com/ ">Firebug</a> - Firefox web development tools.</li>
 				<li><a href="http://fittextjs.com/  ">Fit Text </a> - jQuery plugins for flexible, scalabe type.</li>
 				<li><a href="http://fitvidsjs.com/ ">FitVids.js </a> - jQuery plugin for fluid video width embeds.</li>
 				<li><a href="http://fontdeck.com/  ">Font Deck </a> - Font Collection</li>
 				<li><a href="http://www.fonts.com/">Fonts.com  </a> - Font Collection</li>
+				<li><a href="http://foundation.zurb.com/">Foundation</a> - A free, professional front end web development framework.</li>
 				<li><a href="http://www.fontsquirrel.com/ ">Font Squirrel </a> - Font Collection</li>
 				<li><a href="http://www.google.com/fonts/ ">Google Web Fonts </a> - Font Collection</li>
 				<li><a href="http://gridulator.com/  ">Gridulator </a> - Make quick pixel grids.</li>
 				<li><a href="http://icomoon.io/ ">IcoMoon </a> - Icon Font services.</li>
 				<li><a href="https://www.theleagueofmoveabletype.com/ ">League of Movable Type </a> - Font Collection</li>
+				<li><a href="http://letteringjs.com/">Lettering.js</a> - jQuery plugin for flexible, scalabe type.</li>
 				<li><a href="http://mamp.info/en/index.html ">MAMP</a> - Local web server for testing sites.</li>
 				<li><a href="http://mediaqueri.es/  ">Media Queries </a> - Library of examples for media query success.</li>
 				<li><a href="http://alistapart.com/article/organizing-mobile ">Mobile First </a> - A book and design strategy putting mobile design needs first in the process and scaling up from there.</li>
@@ -93,6 +104,8 @@
 				<li><a href="http://pictos.cc/  ">Pictos</a> - Icon Font services.</li>
 				<li><a href="https://github.com/scottjehl/picturefill">Picturefill</a> - Picture sizer for different screen sizes.</li>
 				<li><a href="http://quirktools.com/">Quirk Tools </a> - Design and display tools.  Wireframes, maps, screen testing.</li>
+				<li><a href="http://sass-lang.com/">Sass </a> - Extension language for CSS, with a sassy attitude.</li>
+				<li><a href="http://mhs.github.io/scout-app/ ">Scout</a> - Scout is a cross-platform app that delivers the power of Sass and Compass into the hands of web designers. </li>
 				<li><a href="http://styletil.es/">Style Tiles  </a> - Design layout tool for client review.</li>
 				<li><a href="http://www.sublimetext.com/">Sublime Text </a> - sophisticated text editor for code, markup and prose.</li>
 				<li><a href="http://subtlepatterns.com/ ">Subtle Patterns  </a> - Browse background patterns and use their photoshop plugin.</li>
@@ -105,22 +118,92 @@
 			</ul>
 		</div>
 
+		<div id="tools" class="grid_12 ">
+			<a name="tools"></a>
+			<h3>Python Development Tools</h3>
+			<ul>
+				<li><a href="https://www.python.org">Python, the Language</a> - The Mothership. I'm not sure what Python doesn't do.</li>
+				<li><a href="https://www.djangoproject.com/">Django</a> - Django is a high-level Python Web framework that encourages rapid development and clean, pragmatic design.</li>
+				<li><a href="http://www.pylonsproject.org/">Pylons Project</a> - Founded by the people behind the Pylons web framework to develop web application framework technology in Python. Rather than focusing on a single web framework, the Pylons Project will develop a collection of related technologies. The first package is the <a href="http://docs.pylonsproject.org/en/latest/docs/pyramid.html">Pyramid </a>web framework.</li>
+				<li><a href="http://flask.pocoo.org/">Flask</a> - Flask is a microframework for Python based on Werkzeug, Jinja 2 and good intentions.</li>
+				<li><a href="http://kivy.org/#home">Kivy</a> - FOpen source Python library for rapid development of applications that make use of innovative user interfaces, such as multi-touch apps. Kivy runs on Linux, Windows, OS X, Android and iOS.</li>
+				<li><a href="http://pandas.pydata.org/">Pandas</a> - Fan open source, BSD-licensed library providing high-performance, easy-to-use data structures and data analysis tools for the Python programming language.</li>
+				<li><a href="http://pydev.org/">PyDev</a> - a Python IDE for Eclipse, which may be used in Python, Jython and IronPython development.</li>
+			</ul>
+		</div>
+
+		<div id="tools" class="grid_12 ">
+			<a name="tools"></a>
+			<h3>Ruby on Rails Development Tools</h3>
+			<ul>
+				<li><a href="https://www.ruby-lang.org/en/">Ruby, the Language  </a> - A dynamic, open source programming language with a focus on simplicity and productivity. It has an elegant syntax that is natural to read and easy to write. </li>
+				<li><a href="http://railsinstaller.org/en">Rails Installer  </a> - Rails Installer for Mac or Windows.   In particular, it installs: Ruby 1.9.3, Rails 3.2, Bundler, Git, Sqlite, osx-gcc-installer, JewelryBox, RVM, SM Framework (11/7/13). </li>
+				<li><a href="http://rubygems.org/">Ruby Gems</a> - the Ruby community's gem hosting service.</li>
+				<li><a href="https://github.com/plataformatec/simple_form">Simple Form </a> - Rails form builder, with Bootstrap styles.</li>
+				<li><a href="https://github.com/plataformatec/devise">Devise </a> - User authentication system.</li>
+			</ul>
+		</div>
+
+		<div id="tools" class="grid_12 ">
+			<a name="tools"></a>
+			<h3>Javascript Development Tools</h3>
+			<ul>
+				<li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference  ">Mozilla Developer Network’s JavaScript Reference </a> - and where to find their other <a href="https://developer.mozilla.org/en-US/docs/Web ">useful tools</a> at Mozilla.</li>
+				<li><a href="http://nodejs.org/">Node.js </a> - Node.js is a platform built on Chrome's JavaScript runtime for easily building fast, scalable network applications.</li>
+				<li><a href="http://backbonejs.org/">Backbone.js </a> - gives structure to web applications by providing models with key-value binding and custom events, collections with a rich API of enumerable functions, views with declarative event handling, and connects it all to your existing API over a RESTful JSON interface. </li>
+				<li><a href="http://jquery.com/">jQuery </a> - a fast, small, and feature-rich JavaScript library. It makes things like HTML document traversal and manipulation, event handling, animation, and Ajax much simpler with an easy-to-use API that works across a multitude of browsers.</li>
+				<li><a href="http://modernizr.com/">Modernizr</a> - a JavaScript library that detects HTML5 and CSS3 features in the user’s browser.</li>
+			</ul>
+		</div>
+
+		<div id="tools" class="grid_12 ">
+			<a name="tools"></a>
+			<h3>Open Source Tools</h3>
+			<p>It seems to be a golden age for open source projects.  These are just a few I am curious about or actually have used.</p>
+			<ul>
+				<li><a href="http://www.processing.org/">Processing 2</a> - Processing is a programming language, development environment, and online community, focused on visual arts. </li>
+				<li><a href="http://arduino.cc/">Arduino</a> - Arduino is an open-source electronics prototyping platform based on flexible, easy-to-use hardware and software. It's intended for artists, designers, hobbyists and anyone interested in creating interactive objects or environments.</li>
+				<li><a href="http://www.raspberrypi.org/">Raspberry Pi</a> - A $35 Linux based computer board "for your kids to learn about computers." Looks more like the Makers have found it to there liking.</li>
+				<li><a href="http://gearman.org/ ">Gearman</a> - provides a generic application framework to farm out work to other machines or processes that are better suited to do the work.  …it is the nervous system for how distributed processing communicates.
+				<li><a href="http://memcached.org/ ">Memcached</a> - an in-memory key-value store for small chunks of arbitrary data (strings, objects) from results of database calls, API calls, or page rendering.</li>
+				<li><a href="http://sphinxsearch.com/ ">Sphinx  </a> - an open source full text search server. Sphinx lets you either batch index and search data stored in an SQL database, NoSQL storage, or just files quickly and easily — or index and search data on the fly, working with Sphinx pretty much as with a database server.</li>
+
+			</ul>
+		</div>
+
 		<div class="prepper">
 			<p><a href="http://channel.nationalgeographic.com/channel/doomsday-preppers/interactives/how-prepped-are-you1/"><img src="img/prepper.jpg"></a>If your prepping is more related to the end of the world, take a test of <a href="http://channel.nationalgeographic.com/channel/doomsday-preppers/interactives/how-prepped-are-you1/">how ready you are</a>.</p>
 		</div>	
 		
 		<div class="bottom_section" class="grid_6">
+			<h4>Logo Garden</h4>
 			<div id ="intro-img" class="grid_2">
-				<a href="http://rubyonrails.org/"><img src="img/ruby.png" alt="Ruby on Rails"></a>
+				<a href="http://python.org"><img src="img/pylogo.png" alt="Python"></a>
 			</div>
 
+			<div id ="intro-img" class="grid_2">
+				<a href="http://rubyonrails.org"><img src="img/ruby.png" alt="Ruby on Rails"></a>
+			</div>
+			<div id ="intro-img" class="grid_2">
+				<a href="http://www.w3schools.com/html/html5_intro.asp"><img src="img/html5logo.png" alt="HTML5"></a>
+			</div>
+			<div id ="intro-img" class="grid_2">
+				<a href="http://www.w3schools.com/css/css3_intro.asp"><img src="img/css3.png" alt="CSS3"></a>
+			</div>
+			<div id ="intro-img" class="grid_2">
+				<a href="http://processing.org"><img src="img/processing.png" alt="Processing 2"></a>
+			</div>
+			<div id ="intro-img" class="grid_2">
+				<a href="http://nodejs.org"><img src="img/node.jpg" alt="Node.js"></a>
+			</div>
+		
 			<div>
 
 				<div id="about" class="grid_6">
 					<a name="about"></a>
 					<h2>About</h2>
 					<p>I live in Seattle and have always had an interest in the power of computing.  Through continued efforts in coding web applications and coming up with unique business models I hope to make a positve difference in peoples lives.</p>
-					<p><a href="#" class="btn-small">Read More</a></p>
+					<p><a href="#" class="btn-small">Back to Top</a></p>
 				</div>
 				
 				<div class="grid_4 omega">
@@ -130,15 +213,16 @@
 						<p>Email: <a href="#">pat (at) wetdog (dot) net</a></p>
 					</div>
 					
-					<p>Sometimes important things are said on Facebook &amp; Twitter.</p>		
-					<a href="http://www.facebook.com/SmellsLikeBakin"><img src="img/facebook.gif" alt="Facebook"></a>
-					<a href="https://twitter.com/#!/smellslikebakin"><img src="img/twitter.gif" alt="Twitter"></a>
+					<p>Check on the latest at Facebook &amp; GitHub.</p>		
+					<a href="https://github.com/p-render"><img src="img/octocat.png" alt="GitHub"></a>
+					<a href="http://private..."><img src="img/facebook.png" alt="Facebook"></a>
+					
 				</div>
-
-<object width="480" height="360"><param name="movie" value="//www.youtube.com/v/KwaMD9LrJCw?hl=en_US&amp;version=3&amp;rel=0"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><embed src="//www.youtube.com/v/KwaMD9LrJCw?hl=en_US&amp;version=3&amp;rel=0" type="application/x-shockwave-flash" width="480" height="360" allowscriptaccess="always" allowfullscreen="true"></embed></object>
 
 			</div>	
 		</div>
+
+	
 		<div id="copyright" class="grid_12">
 			<p>© Git a Grep, Inc. All Rights Reserved.</p>
 		</div>
